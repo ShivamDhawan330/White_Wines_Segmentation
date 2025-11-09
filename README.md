@@ -21,7 +21,7 @@ Using Computer Vision Model to detect 3 classes (3XP, Pinot_Gregio, Villa_Maria)
 	  + **Result**: Better Counting Results in Segmentation than in Object Detection Model
 
 2. Limited Dataset
-    > **Solution**: Data Augmentation - Same images is being augmented by adding blurness, brightness and noise to the background - resulting in 3X of the source dataset 
+      + **Solution**: Data Augmentation - Same images is being augmented by adding blurness, brightness and noise to the background - resulting in 3X of the source dataset 
 
 3. Manual Data Labelling
 	+ **Solution**: CVAT with SAM (Segment Anything Model) helps a lot in Annotating almost ~1000 images
@@ -35,9 +35,9 @@ Using Computer Vision Model to detect 3 classes (3XP, Pinot_Gregio, Villa_Maria)
 
 ## Approaches Taken:
 
-> Generalization: First try to make model generalize on these 3 wines by providing these wines images in different background
-> Overfitting: But then shifted approach to Overfit the model to a particular background
-	Better Results
+> **Generalization**: First try to make model generalize on these 3 wines by providing these wines images in different background
+
+> **Overfitting**: But then shifted approach to Overfit the model to a particular background for better Results
 	
 	
 ## Tools Used:
