@@ -17,8 +17,8 @@ Using Computer Vision Model to detect 3 classes (3XP, Pinot_Gregio, Villa_Maria)
 
 1. Decision to go with Object Detection or Segmentation
 
-	  > **Solution**: Since the bottles in the image are very closely packed so decided to go with Segmentation task for better detecting the object for Inventory Counting
-	  > **Result**: Better Counting Results in Segmentation than in Object Detection Model
+	  + **Solution**: Since the bottles in the image are very closely packed so decided to go with Segmentation task for better detecting the object for Inventory Counting
+	  + **Result**: Better Counting Results in Segmentation than in Object Detection Model
 
 2. Limited Dataset
     > **Solution**: Data Augmentation - Same images is being augmented by adding blurness, brightness and noise to the background - resulting in 3X of the source dataset 
